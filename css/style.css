@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Rochester&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    color: black;
+    background-color: pink;
+}
+
+.titulo{ 
+    font-size: 60px;
+    font-family: 'Rochester', "cursive";
+    padding-top: 20px;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    }
+
+.titulo__pedidosespeciales{
+    font-size: 50px;  
+    font-family: 'Rochester', "cursive";
+    padding-top: 20px;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+}
+
+.titulo__conocenos{
+    font-size: 50px;  
+    font-family: 'Rochester', "cursive";
+    padding-top: 20px;
+    margin: 0; 
+    justify-content: center;
+    display: flex;
+}
+
+.titulo__contacto{
+    font-size: 50px;  
+    font-family: 'Rochester', "cursive";
+    padding-top: 20px;
+    margin: 0; 
+    justify-content: center;
+    display: flex;
+}
+
+.menu {
+    color: black;
+    font-family: 'New Tegomin', serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    align-items: center;
+    list-style: none;
+}
+
+.menu__pedidosespeciales{
+    color: black;
+    font-family: 'New Tegomin', serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    align-items: center;
+    list-style: none;
+}
+
+.menu__contacto{
+    color: black;
+    font-family: 'New Tegomin', serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    align-items: center;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu__1:hover{
+    transform: scale(1.2);
+    transition: all 2s;
+}
+
+.menu__2:hover{
+    transform: scale(1.2);
+    transition: all 2s;
+}
+
+.menu__3:hover{
+    transform: scale(1.2);
+    transition: all 2s;
+}
+
+.menu__4:hover{
+    transform: scale(1.2);
+    transition: all 2s;
+}
+
+.productos__{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    font-family: 'New Tegomin', serif;
+    font-size: 25px;
+    align-self: center;
+}
+
+.productos_listas{
+    align-self: end;
+    display: flex;
+    justify-self: center;
+}
+
+.productos_listas_ li{
+    list-style: none;
+}
+
+#pedidosespeciales_espacio{
+    word-spacing: normal;
+}
+
+#pedidosespeciales__{
+    margin: 20px;
+    text-align: center;
+    font-family: 'New Tegomin', serif;
+    font-size: 20px;
+    word-spacing: 0.5cm;
+}
+
+.contacto{
+    border-style: dotted;
+    border-color: aqua;
+    border-width: medium;
+}
+
+.contacto__{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+form label{
+    font-family: 'New Tegomin', serif;
+    font-size: 20px;
+}
+
+form input,
+form textarea{
+    background-color: pink;
+    border-radius: 5px;
+}
+
+.conocenos__mapa{
+    color: black;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 20px;
+    padding: 0px;
+    margin: 10px;
+}
+
+.flex_section_atencion{
+    padding: 20px;
+    margin: 20px;
+    border-style: dashed;
+    border-color: aqua;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding: 20px;
+    border-style: dashed;
+    border-color: aqua;
+    background-color: aquamarine;
+
+}
+ 
+.pedidosespeciales{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tamaños{
+    color: black;
+    font-family: 'Homemade Apple',"cursive";
+    font-size: 20px;
+    padding: 0px;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+.imagen_masitassecas{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.imagen__{
+    border-style: solid;
+    border-color: plum;
+    margin: 40px;
+}
+
+.pedidosespeciales{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.pedidosespeciales__{
+    border-style: solid;
+    border-color: plum;
+    margin: 40px;
+}
+
+.tartas_imagen{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.tartas__{
+    border-style: solid;
+    border-color: paleturquoise;
+    margin: 40px;
+}
+
+.budin{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.budin__{
+    border-style: solid;
+    border-color: tomato;
+    margin: 40px;
+}

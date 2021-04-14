@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Conocenos</title>
+    <style>
+        .grid_menu{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows:auto ;
+            font-size: 25px;
+            font-family: 'New Tegomin', serif;
+            text-align: center;
+            justify-content: space-evenly;
+            list-style: none;
+            margin: 5px;
+        }
+        .grid_section{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); 
+            grid-template-rows: repeat(1, 1fr);
+            font-size: 20px;
+            font-family: 'New Tegomin', serif;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo__conocenos">Conocenos</h1>
+        <nav> 
+            <ul class="grid_menu">
+                <li class="menu__1"><a href="../index.html">Inicio</a></li>
+                <li class="menu__2"><a href="../Paginas/PedidosEspeciales.html" id="pedidosespeciales">Pedidos Especiales</a></li>
+                <li class="menu__3"><a href="../Paginas/Conocenos.html">Conocenos</a></li>
+                <li class="menu__4"><a href="../Paginas/Contacto.html">Contacto</a></li>
+            </ul> 
+        </nav>
+    </header>
+        
+        <div class="grid_section">
+            <section class="grid_section_map">
+                <h2>Donde estamos</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6565.146388585066!2d-58.366823922072214!3d-34.64022450168409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334b3cdd7102f%3A0x652161c2417296e!2sPlaza%20Matheu!5e0!3m2!1ses-419!2sar!4v1614736351308!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+
+            <section class="flex_section_atencion">
+                <h3>Atención al Publico</h3>
+               <p class="flex_section_atencion_" >Atendemos a nuestros clientes a través de todos los medios, sea whatsapp, teléfono o email.</p>         
+               <p>Los pedidos se pueden realizar a distancia fácilmente en nuestra web o whatsapp.</p>
+               <p>El pedido se retira una vez abonados o bien pagarlos al retirarlos.</p>
+            </section>
+        </div>
+        
+
+    <footer>
+        <nav class="redes">
+            <a target="_blanck" href="https://www.facebook.com/"><img src="../Imagenes/facebook.png" width="50px" alt=""></facebook></a>
+            <a target="_blanck" href="https://www.instagram.com/"><img src="../Imagenes/instagram.png" width="50px" alt=""></instagram></a>
+        </nav>
+    </footer>
+    
+</body>
+</html>
