@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Rochester&display=swap');
 
+@import "_titulo.scss";
+
 body{
     padding: 0;
     margin: 0;
@@ -11,42 +13,6 @@ body{
 header{
     color: black;
     background-color: pink;
-}
-
-.titulo{ 
-    font-size: 60px;
-    font-family: 'Rochester', "cursive";
-    padding-top: 20px;
-    margin: 0;
-    justify-content: center;
-    display: flex;
-    }
-
-.titulo__pedidosespeciales{
-    font-size: 50px;  
-    font-family: 'Rochester', "cursive";
-    padding-top: 20px;
-    margin: 0;
-    justify-content: center;
-    display: flex;
-}
-
-.titulo__conocenos{
-    font-size: 50px;  
-    font-family: 'Rochester', "cursive";
-    padding-top: 20px;
-    margin: 0; 
-    justify-content: center;
-    display: flex;
-}
-
-.titulo__contacto{
-    font-size: 50px;  
-    font-family: 'Rochester', "cursive";
-    padding-top: 20px;
-    margin: 0; 
-    justify-content: center;
-    display: flex;
 }
 
 .menu {

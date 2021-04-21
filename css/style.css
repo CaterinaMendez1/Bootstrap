@@ -1,15 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Rochester&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=New+Tegomin&family=Rochester&display=swap");
-body {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box; }
-
-header {
-  color: black;
-  background-color: pink; }
-
 .titulo {
   font-size: 60px;
   font-family: 'Rochester', "cursive";
@@ -41,6 +32,15 @@ header {
   margin: 0;
   justify-content: center;
   display: flex; }
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+header {
+  color: black;
+  background-color: pink; }
 
 .menu {
   color: black;
