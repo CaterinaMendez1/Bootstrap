@@ -4,6 +4,8 @@
 
 @import "_titulo.scss";
 
+$letra-tipo: 'New Tegomin', serif;
+
 body{
     padding: 0;
     margin: 0;
@@ -17,7 +19,7 @@ header{
 
 .menu {
     color: black;
-    font-family: 'New Tegomin', serif;
+    font-family: $letra-tipo;
     font-size: 30px;
     display: flex;
     justify-content: space-evenly;
@@ -28,7 +30,7 @@ header{
 
 .menu__pedidosespeciales{
     color: black;
-    font-family: 'New Tegomin', serif;
+    font-family: $letra-tipo;
     font-size: 25px;
     display: flex;
     justify-content: space-evenly;
@@ -39,7 +41,7 @@ header{
 
 .menu__contacto{
     color: black;
-    font-family: 'New Tegomin', serif;
+    font-family: $letra-tipo;
     font-size: 25px;
     display: flex;
     justify-content: space-evenly;
@@ -73,7 +75,7 @@ a{
 }
 
 .container{
-    font-family: 'New Tegomin', serif;
+    font-family: $letra-tipo;
     font-size: 25px;
     align-self: center;
 }
@@ -95,7 +97,7 @@ a{
 #pedidosespeciales__{
     margin: 20px;
     text-align: center;
-    font-family: 'New Tegomin', serif;
+    font-family: $letra-tipo;
     font-size: 20px;
     word-spacing: 0.5cm;
     font-size: 30px;
@@ -116,7 +118,7 @@ a{
 }
 
 form label{
-    font-family: 'New Tegomin', serif;
+    font-family: $letra-tipo;
     font-size: 20px;
 }
 

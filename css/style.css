@@ -44,7 +44,7 @@ header {
 
 .menu {
   color: black;
-  font-family: 'New Tegomin', serif;
+  font-family: "New Tegomin", serif;
   font-size: 30px;
   display: flex;
   justify-content: space-evenly;
@@ -54,7 +54,7 @@ header {
 
 .menu__pedidosespeciales {
   color: black;
-  font-family: 'New Tegomin', serif;
+  font-family: "New Tegomin", serif;
   font-size: 25px;
   display: flex;
   justify-content: space-evenly;
@@ -64,7 +64,7 @@ header {
 
 .menu__contacto {
   color: black;
-  font-family: 'New Tegomin', serif;
+  font-family: "New Tegomin", serif;
   font-size: 25px;
   display: flex;
   justify-content: space-evenly;
@@ -92,7 +92,7 @@ a {
   transition: all 2s; }
 
 .container {
-  font-family: 'New Tegomin', serif;
+  font-family: "New Tegomin", serif;
   font-size: 25px;
   align-self: center; }
 
@@ -110,7 +110,7 @@ a {
 #pedidosespeciales__ {
   margin: 20px;
   text-align: center;
-  font-family: 'New Tegomin', serif;
+  font-family: "New Tegomin", serif;
   font-size: 20px;
   word-spacing: 0.5cm;
   font-size: 30px; }
@@ -128,7 +128,7 @@ a {
   padding: 5px; }
 
 form label {
-  font-family: 'New Tegomin', serif;
+  font-family: "New Tegomin", serif;
   font-size: 20px; }
 
 form input,
