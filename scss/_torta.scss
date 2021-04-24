@@ -1,0 +1,52 @@
+@for $i from 1 through 4 {
+    .grid_torta_#{$i} {border-style: solid; border-color: rgb(32, 219, 219);}
+  }
+
+.grid_torta {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap:100px;
+    row-gap:100px;
+    justify-content: center;
+}
+
+$redes: ( 
+        instagram: #f010bf,
+        facebook:  #3600fa,
+); 
+
+@each $red, $color in $redes {
+   .redes__#{$red} {
+       border-color: $color;
+   }
+}
+
+@for $i from 1 through 3 {
+    .menu__#{$i}:hover { transform: scale(1.2);
+    transition: all 2s;}
+  }
+  
+.card-title {
+   color: black;
+  font-family: "New Tegomin", serif;
+  
+}
+
+.tamaños {
+    @extend.card-title;
+    font-size: 30px;
+}
+
+/*--------------------MASITAS SECAS---------------------*/
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+ }
+ .imagen__ {
+    @include sizes(400px, 400px);
+ }
+ 
+
+/* -----------------------------------------------------------------------*/

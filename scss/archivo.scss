@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Rochester&display=swap');
 
+@import "_torta";
+
+$letra-tipo: 'New Tegomin', serif;
+
 body{
     padding: 0;
     margin: 0;
@@ -51,7 +55,7 @@ header{
 
 .menu {
     color: black;
-    font-family: 'New Tegomin', serif;
+    font-family: $letra-tipo;
     font-size: 30px;
     display: flex;
     justify-content: space-evenly;
@@ -62,7 +66,7 @@ header{
 
 .menu__pedidosespeciales{
     color: black;
-    font-family: 'New Tegomin', serif;
+    font-family: $letra-tipo;
     font-size: 25px;
     display: flex;
     justify-content: space-evenly;
@@ -73,7 +77,7 @@ header{
 
 .menu__contacto{
     color: black;
-    font-family: 'New Tegomin', serif;
+    font-family: $letra-tipo;
     font-size: 25px;
     display: flex;
     justify-content: space-evenly;
@@ -85,29 +89,8 @@ header{
 a{
     text-decoration: none;
 }
-
-.menu__1:hover{
-    transform: scale(1.2);
-    transition: all 2s;
-}
-
-.menu__2:hover{
-    transform: scale(1.2);
-    transition: all 2s;
-}
-
-.menu__3:hover{
-    transform: scale(1.2);
-    transition: all 2s;
-}
-
-.menu__4:hover{
-    transform: scale(1.2);
-    transition: all 2s;
-}
-
 .container{
-    font-family: 'New Tegomin', serif;
+    font-family: $letra-tipo;
     font-size: 25px;
     align-self: center;
 }
@@ -129,7 +112,7 @@ a{
 #pedidosespeciales__{
     margin: 20px;
     text-align: center;
-    font-family: 'New Tegomin', serif;
+    font-family: $letra-tipo;
     font-size: 20px;
     word-spacing: 0.5cm;
     font-size: 30px;
@@ -192,6 +175,8 @@ form textarea{
     padding: 0px;
     align-items: flex-start;
     margin-left: 50px;
+    justify-content: center;
+    display: flexbox;
 }
 
 .imagen_masitassecas{
@@ -204,8 +189,9 @@ form textarea{
 
 .imagen__{
     border-style: solid;
-    border-color: plum;
+    border-color: rgb(0, 226, 188);
     margin: 40px;
+    border-style: solid;
 }
 
 .tartas_imagen{
