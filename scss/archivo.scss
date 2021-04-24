@@ -105,6 +105,13 @@ a{
     text-align: center;
 }
 
+#grillas{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+
+}
+
 #pedidosespeciales_espacio{
     word-spacing: normal;
 }
