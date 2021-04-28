@@ -195,12 +195,14 @@ form textarea {
 
 .redes {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 30px;
-  padding: 20px;
+  justify-content: space-around;
   border-style: dashed;
   border-color: aqua;
-  background-color: aquamarine; }
+  background-color: aquamarine;
+  align-items: center;
+  font-family: "New Tegomin", serif;
+  font-size: 30px;
+  margin: 10px; }
 
 .tamaños {
   color: black;
@@ -248,3 +250,7 @@ form textarea {
   border-style: solid;
   border-color: tomato;
   margin: 40px; }
+
+.contacto_flex {
+  display: flex;
+  justify-content: space-around; }
