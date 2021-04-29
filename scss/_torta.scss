@@ -51,8 +51,23 @@ $redes: (
 
 /* -----------------------------------------------------------------------*/
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 768px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
   body{
-      background-color:aquamarine
+    width: 100%;
+} 
+}
+
+@media screen and (max-width: 768px) {
+  .redes{
+    display: flex;
+    flex-direction: column;
   }
 }
