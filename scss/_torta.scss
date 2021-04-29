@@ -71,3 +71,9 @@ $redes: (
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .menu__pedidosespeciales {
+    display: flex;
+    flex-direction: column;
+ }
