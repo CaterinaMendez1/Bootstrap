@@ -56,6 +56,10 @@
   width: 400px; }
 
 /* -----------------------------------------------------------------------*/
+@media screen and (max-width: 1440px) {
+  body {
+    background-color: aquamarine; } }
+
 body {
   padding: 0;
   margin: 0;
