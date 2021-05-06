@@ -54,20 +54,116 @@ $redes: (
 @media screen and (max-width: 768px) {
   .menu {
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    font-size: 1.5rem;
+    width: 100%;
   }
 }
 
-@media screen and (max-width: 768px) {
-  body{
-    width: 100%;
-} 
+@media screen and (max-width:558px) {
+  .menu{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    width: auto;
+  }
+  
+}
+
+@media screen and(min-width: 768px) {
+  .menu{
+    display: flex;
+    font-size: 1.7rem;
+    width: auto;
+    flex-direction: row;
+  }
+ 
 }
 
 @media screen and (max-width: 768px) {
   .redes{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    font-size: 1.2rem;
+    width: auto;
   }
+}
+
+/*-----------------pedidos especiales---------------*/
+
+@media screen and (max-width:768px) {
+  .menu_pedidosespeciales{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    width: auto;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .menu_pedidosespeciales{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    font-size: 2rem;
+  }
+  
+}
+
+@media screen and(min-width: 768px) {
+  #grillas{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #grllas{
+    display: grid;
+    grid-template-columns: 70%;
+    justify-content: space-evenly;
+
+  }
+}
+
+
+/*-------------Contacto----------------*/
+
+@media screen and (max-width: 500px) {
+  .contacto_flex{
+    display: flex;
+    flex-direction: column-reverse;
+    width: auto;
+  }
+}
+
+@media screen and (min-width:500px){
+  .contacto_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+}
+
+@media screen and (max-width:720px){
+  .menu__contacto{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    width: auto;
+
+  }
+  
+}
+
+@media screen and (min-width:720px) {
+  .menu__contacto{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    font-size: 2rem;
+  }
+  
 }
