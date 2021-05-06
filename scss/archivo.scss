@@ -12,6 +12,13 @@ body{
     box-sizing: border-box;
 }
 
+.body_contacto{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
 header{
     color: black;
     background-color: pink;
@@ -56,7 +63,6 @@ header{
 .menu {
     color: black;
     font-family: $letra-tipo;
-    font-size: 30px;
     display: flex;
     justify-content: space-evenly;
     margin-top: 5px;
@@ -67,7 +73,6 @@ header{
 .menu__pedidosespeciales{
     color: black;
     font-family: $letra-tipo;
-    font-size: 25px;
     display: flex;
     justify-content: space-evenly;
     margin-top: 5px;
@@ -78,7 +83,6 @@ header{
 .menu__contacto{
     color: black;
     font-family: $letra-tipo;
-    font-size: 25px;
     display: flex;
     justify-content: space-evenly;
     margin-top: 5px;
@@ -103,12 +107,6 @@ a{
 .lead li{
     list-style: none;
     text-align: center;
-}
-
-#grillas{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    justify-content: center;
 }
 
 #pedidosespeciales_espacio{
@@ -172,8 +170,8 @@ form textarea{
     background-color: aquamarine;
     align-items: center;
     font-family: $letra-tipo;
-    font-size: 20px;
     margin: 10px;
+    width: 100%;
 }
 
 .tamaños{
@@ -228,9 +226,4 @@ form textarea{
     border-style: solid;
     border-color: tomato;
     margin: 40px;
-}
-
-.contacto_flex{
-    display: flex;
-    justify-content: space-around;
 }
