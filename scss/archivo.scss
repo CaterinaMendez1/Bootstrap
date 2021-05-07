@@ -25,9 +25,8 @@ header{
 }
 
 .titulo{ 
-    font-size: 50px;
     font-family: 'Rochester', "cursive";
-    padding-top: 20px;
+    padding: 20px;
     margin: 0;
     justify-content: center;
     display: flex;
@@ -78,6 +77,8 @@ header{
     margin-top: 5px;
     align-items: center;
     list-style: none;
+    padding: 10px;
+    font-size: 2rem;
 }
 
 .menu__contacto{

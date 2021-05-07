@@ -80,52 +80,6 @@ $redes: (
  
 }
 
-@media screen and (max-width: 768px) {
-  .redes{
-    display: flex;
-    flex-direction: row;
-    font-size: 1.2rem;
-    width: auto;
-  }
-}
-
-@media screen and (max-width:768px) {
-  .menu_pedidosespeciales{
-    display: flex;
-    flex-direction: row;
-    font-size: 1.2rem;
-    width: auto;
-  }
-}
-
-@media screen and (min-width:768px) {
-  .menu_pedidosespeciales{
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    font-size: 2rem;
-  }
-  
-}
-
-@media screen and(min-width: 768px) {
-  #grillas{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    justify-content: center;
-  }
-}
- 
-
-@media screen and (max-width: 768px){
-  #grllas{
-    display: grid;
-    grid-template-columns: 70%;
-    justify-content: space-evenly;
-
-  }
-}
-
 
 /*-------------Contacto----------------*/
 
@@ -167,3 +121,63 @@ $redes: (
   
 }
 
+/*-----------------index---------------*/
+
+@media screen and (max-width:720px) {
+  .titulo{
+    font-size: 2.3rem;
+  }
+  
+}
+
+@media screen and (min-width:720px) {
+  .titulo{
+    font-size: 5rem;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .redes{
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .redes{
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem;
+    width: auto;
+  }
+}
+
+/*----------pedidos-----------*/
+
+@media screen and (max-width: 720px) {
+  .menu__pedidosespeciales{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+@media screen and(min-width: 768px) {
+  #grillas{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #grillas{
+    display: grid;
+    grid-template-columns: 70%;
+    justify-self: center;
+
+  }
+}
