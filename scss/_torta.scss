@@ -1,21 +1,3 @@
-@for $i from 1 through 4 {
-    .grid_torta_#{$i} {border-style: solid; border-color: rgb(32, 219, 219);}
-  }
-
-.grid_torta {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    grid-gap:100px;
-    row-gap:100px;
-    justify-content: center;
-}
-
-$redes: ( 
-        instagram: #f010bf,
-        facebook:  #3600fa,
-); 
-
 @each $red, $color in $redes {
    .redes__#{$red} {
        border-color: $color;
@@ -29,13 +11,7 @@ $redes: (
   
 .card-title {
    color: black;
-  font-family: "New Tegomin", serif;
-  
-}
-
-.tamaños {
-    @extend.card-title;
-    font-size: 30px;
+  font-family: "New Tegomin", serif; 
 }
 
 /*--------------------MASITAS SECAS---------------------*/
@@ -49,8 +25,7 @@ $redes: (
  }
  
 
-/* -----------------------------------------------------------------------*/
-
+ 
 @media screen and (max-width: 768px) {
   .menu {
     display: flex;
@@ -80,10 +55,9 @@ $redes: (
  
 }
 
-
 /*-------------Contacto----------------*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .contacto_flex{
     display: flex;
     flex-direction: column-reverse;
@@ -91,7 +65,7 @@ $redes: (
   }
 }
 
-@media screen and (min-width:500px){
+@media screen and (min-width:800px){
   .contacto_flex{
     display: flex;
     flex-direction: row;
@@ -127,21 +101,19 @@ $redes: (
   .titulo{
     font-size: 2.3rem;
   }
-  
 }
 
 @media screen and (min-width:720px) {
   .titulo{
     font-size: 5rem;
   }
-  
 }
 
 @media screen and (max-width: 768px) {
   .redes{
     display: flex;
     flex-direction: row;
-    font-size: 1rem;
+    font-size: 1.5rem;
     width: auto;
   }
 }
@@ -169,15 +141,33 @@ $redes: (
   #grillas{
     display: grid;
     grid-template-columns: 30% 30% 30%;
+    gap: 10px;
     justify-content: center;
   }
+
 }
+
 
 @media screen and (max-width: 768px){
   #grillas{
     display: grid;
     grid-template-columns: 70%;
-    justify-self: center;
-
+    gap: 10px;
+    justify-content: center;
   }
 }
+
+@media screen and (min-width:768px) {
+  #pedidosespeciales__{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width:768px){
+  #pedidosespeciales__{
+    font-size: 1.4rem;
+  } 
+}
+
+
+

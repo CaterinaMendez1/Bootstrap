@@ -1,29 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Rochester&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=New+Tegomin&family=Rochester&display=swap");
-.grid_torta_1 {
-  border-style: solid;
-  border-color: #20dbdb; }
-
-.grid_torta_2 {
-  border-style: solid;
-  border-color: #20dbdb; }
-
-.grid_torta_3 {
-  border-style: solid;
-  border-color: #20dbdb; }
-
-.grid_torta_4 {
-  border-style: solid;
-  border-color: #20dbdb; }
-
-.grid_torta {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-  grid-gap: 100px;
-  row-gap: 100px;
-  justify-content: center; }
 
 .redes__instagram {
   border-color: #f010bf; }
@@ -78,13 +55,13 @@
     flex-direction: row; } }
 
 /*-------------Contacto----------------*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .contacto_flex {
     display: flex;
     flex-direction: column-reverse;
     width: auto; } }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 800px) {
   .contacto_flex {
     display: flex;
     flex-direction: row;
@@ -117,7 +94,7 @@
   .redes {
     display: flex;
     flex-direction: row;
-    font-size: 1rem;
+    font-size: 1.5rem;
     width: auto; } }
 
 @media screen and (min-width: 768px) {
@@ -128,6 +105,7 @@
     width: auto; } }
 
 /*----------pedidos-----------*/
+
 @media screen and (max-width: 720px) {
   .menu__pedidosespeciales {
     display: flex;
@@ -137,20 +115,30 @@
   #grillas {
     display: grid;
     grid-template-columns: 30% 30% 30%;
+    gap: 10px;
     justify-content: center; } }
 
 @media screen and (max-width: 768px) {
   #grillas {
     display: grid;
     grid-template-columns: 70%;
-    justify-self: center; } }
+    gap: 10px;
+    justify-content: center; } }
+
+@media screen and (min-width: 768px) {
+  #pedidosespeciales__ {
+    font-size: 2rem; } }
+
+@media screen and (max-width: 768px) {
+  #pedidosespeciales__ {
+    font-size: 1.4rem; } }
 
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
 
-.body_contacto {
+.body_conocenos {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
@@ -242,9 +230,7 @@ a {
   margin: 20px;
   text-align: center;
   font-family: "New Tegomin", serif;
-  font-size: 20px;
-  word-spacing: 0.5cm;
-  font-size: 30px; }
+  word-spacing: 0.5cm; }
 
 .contacto {
   border-style: dotted;
@@ -337,3 +323,10 @@ form textarea {
   border-style: solid;
   border-color: tomato;
   margin: 40px; }
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fdc2d6; }

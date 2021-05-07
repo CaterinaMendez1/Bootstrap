@@ -9,25 +9,57 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Las Delicias de Lourdes: Conocenos</title>
     <style>
+    
+    @media screen and (max-width:780px) {
+        .grid_menu{
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto auto;
+            font-size: 1.7rem;
+            width: 100%;
+        }   
+    }
+
+    @media screen and (min-width:780px) {
         .grid_menu{
             display: grid;
             grid-template-columns: auto auto auto auto;
-            grid-template-rows:auto ;
-            font-size: 25px;
+            grid-template-rows: auto;
+            font-size: 2rem;
+            width: 100%;
+        }   
+    }
+        .grid_menu{
             font-family: 'New Tegomin', serif;
             text-align: center;
             justify-content: space-evenly;
             list-style: none;
-            margin: 5px;
         }
+
+    @media screen and (max-width:1110px) {
         .grid_section{
             display: grid;
-            grid-template-columns: repeat(2, 1fr); 
-            grid-template-rows: repeat(1, 1fr);
-            font-size: 20px;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            font-size: 1.7rem;
+        }
+    }
+
+    @media screen and (min-width:1100px) {
+        .grid_section{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto;
+            font-size: 2rem;
+        }        
+    }
+
+        .grid_section{
             font-family: 'New Tegomin', serif;
             text-align: center;
         }
+
+    
     </style>
 </head>
 
